@@ -116,3 +116,9 @@ void binarySearch()
     } while (ulang == 'y' || ulang == 'Y');
 }
 int main ()
+{
+    input();
+    bublesortarray();
+    display();
+    binarySearch();
+}
